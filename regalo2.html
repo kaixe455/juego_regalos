@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cumpleaños Claudia 2022</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-12 my-5">
+                <h1 class="text-center feliz">
+                    Segundo Regalo
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <img id="regaloImg" src="img/regalo.png" class="regalo" alt="">
+            </div>
+            <div class="col-md-6 text-center">
+                <div id="acertijo">
+                    <h2 class="juego font-size-6rem" id="primeraPalabra">________</h2>
+                    <h2 class="juego my-3 font-size-6rem" id="segundaPalabra">__________</h2>
+                </div>
+                <h2 class="juego d-none" id="fechaPremio">CORRE!! AHÍ ESTÁ TU REGALO !!</h2>
+                <button id="btnSiguiente" class="my-5 reto d-none" onclick="regalo3()">Siguiente</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <button class="my-5 reto" onclick="resolverRegalo2()">Resolver</button>
+                <button class="my-5 reto" onclick="checkRegalo2()">Decir letra</button>
+                <br>
+                <input type="text" id="respuesta">
+            </div>
+        </div>
+        <div class="row d-none" id="cargando">
+            <div class="col-md-12">
+                <div id="myProgress">
+                    <div id="myBar"></div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
