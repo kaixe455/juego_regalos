@@ -182,7 +182,8 @@ function resolverRegalo1() {
         let audio = new Audio('mp3/si.mp3');
         audio.play();
     }else {
-        alert("error")
+        let audio = new Audio('mp3/incorrecto.mp3');
+        audio.play();
     }
 }
 
@@ -195,7 +196,8 @@ function resolverRegalo2() {
         let audio = new Audio('mp3/si.mp3');
         audio.play();
     }else {
-        alert("error")
+        let audio = new Audio('mp3/incorrecto.mp3');
+        audio.play();
     }
 }
 
@@ -214,7 +216,8 @@ function resolverRegalo3() {
         //audio.play();
         //cancion cumpleaños
     }else {
-        alert("error")
+        let audio = new Audio('mp3/incorrecto.mp3');
+        audio.play();
     }
 }
 
