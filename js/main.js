@@ -57,7 +57,6 @@ function checkRegalo1() {
         }
 
         if(!contieneLetra) {
-            alert("La letra " + letra + " no está contenida!!")
             let audio = new Audio('mp3/incorrecto.mp3');
             audio.play();
         }
@@ -105,7 +104,6 @@ function checkRegalo2() {
         if(!contieneLetra) {
             let audio = new Audio('mp3/incorrecto.mp3')
             audio.play()
-            alert("La letra " + letra + " no está contenida!!")
         }
     } else {
         alert("Solo se puede introducir una letra")
@@ -151,7 +149,6 @@ function checkRegalo3() {
         if(!contieneLetra) {
             let audio = new Audio('mp3/incorrecto.mp3');
             audio.play();
-            alert("La letra " + letra + " no está contenida!!")
         }
     } else {
         alert("Solo se puede introducir una letra")
